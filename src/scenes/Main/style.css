@@ -1,0 +1,42 @@
+.main {
+	margin: 32px 98px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.my-card {
+	width: 348px;
+    height: 384px;
+    margin-right: 37px;
+    margin-bottom: 24px;
+}
+
+.mdc-card {
+	height: 100%
+}
+
+.mdc-card__content {
+	color: black;
+	padding: 16px;
+	height: 50%; 
+}
+
+
+.mdc-card__content p {
+	height: 100px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+	padding-top: 8px;
+}
+
+.mdc-card__media-content .icons {
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 10px;
+}

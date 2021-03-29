@@ -1,0 +1,19 @@
+.images-set {
+	display: flex;
+}
+
+
+.images-gallery img.selected{
+	width: 532px;
+   	height: 355px;
+   	padding-bottom: 16px;
+}
+
+
+img.image-icon  {
+	width: 56px;
+	height: 56px;
+	object-fit: cover;
+	margin-right: 8px;
+	cursor: pointer;
+}

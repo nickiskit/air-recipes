@@ -1,0 +1,53 @@
+header {
+	color: black;
+	width: 100%;
+	height: 600px;
+	background: url(./../../assets/img/header-background.png) white no-repeat right / contain;
+}
+
+header.smaller {
+	background-size: auto;
+	height: 292px; 
+}
+
+header p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: #82786A;
+	padding-bottom: 32px;
+}
+
+.smaller .header__content {
+	padding-top: 50px;
+}
+
+.header__content {
+	width: 348px;
+	height: 192px;
+	padding-top: 128px;
+	margin-left: 98px;
+}
+
+.header__searchbar {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__searchbar button {
+	border: #C4C4C4 1px solid;
+	height: 56px;
+	width: 56px;
+}
+
+.inputRounded .MuiOutlinedInput-root{
+   border-radius: 26px;
+   width: 276px;
+   border: 1px solid #DDDDDD;
+}
+
+.inputRounded .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+	border: none;
+	outline: none;
+}

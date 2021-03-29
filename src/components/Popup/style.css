@@ -1,0 +1,108 @@
+.popup__background {
+position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0,0,0, 0.5);
+  z-index: 999;
+}
+
+.popup__card {
+	width: 440px;
+	height: 558px;
+	z-index: 1000;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+
+.card__content {
+	padding: 32px;
+}
+
+.card__content h1 {
+	margin: 0;
+}
+
+.card__content ul {
+	list-style: none;
+	padding-left: 0;
+  margin: 0;
+}
+
+.card__content li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   border-bottom: rgba(33, 33, 33, 0.08) solid 1px;
+}
+
+.card__content li span {
+  padding: 12px 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.MuiButtonBase-root .MuiIconButton-root .close-button{
+	position: absolute;
+    padding: 0;
+    top: 21px;
+    right: 21px;
+}
+
+.card__content .MuiIconButton-label {
+	height: 14px;
+    width: 14px;
+}
+
+.card__content h3 {
+  padding-bottom: 16px;
+}
+
+#calories {
+  padding-top: 72px;
+  padding-bottom: 92px;
+  color: #82786A;
+}
+
+.card__content button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  padding: 10px 15px;
+}
+
+.card__content .button-show {
+  background: #82786A;
+  border: 1px solid #82786A;
+  border-radius: 4px;
+  float: right;
+  width: 143px;
+  height: 36px;
+  color: white;
+}
+
+.card__content .button-show:hover {
+  background: #82786A;
+}
+
+.card__content .button-clear {
+  background:transparent;
+  color:  #82786A;
+  padding: 10px 15px;
+  width: 78px;
+  height: 36px;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
+}
