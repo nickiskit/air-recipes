@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/air-recipes/static/css/main.ac562967.chunk.css",
+    "main.js": "/air-recipes/static/js/main.a629a9c0.chunk.js",
+    "main.js.map": "/air-recipes/static/js/main.a629a9c0.chunk.js.map",
+    "runtime-main.js": "/air-recipes/static/js/runtime-main.6a961197.js",
+    "runtime-main.js.map": "/air-recipes/static/js/runtime-main.6a961197.js.map",
+    "static/css/2.54dad548.chunk.css": "/air-recipes/static/css/2.54dad548.chunk.css",
+    "static/js/2.211ce625.chunk.js": "/air-recipes/static/js/2.211ce625.chunk.js",
+    "static/js/2.211ce625.chunk.js.map": "/air-recipes/static/js/2.211ce625.chunk.js.map",
+    "index.html": "/air-recipes/index.html",
+    "static/css/2.54dad548.chunk.css.map": "/air-recipes/static/css/2.54dad548.chunk.css.map",
+    "static/css/main.ac562967.chunk.css.map": "/air-recipes/static/css/main.ac562967.chunk.css.map",
+    "static/js/2.211ce625.chunk.js.LICENSE.txt": "/air-recipes/static/js/2.211ce625.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/air-recipes/static/media/header-background.2f5e4006.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a961197.js",
+    "static/css/2.54dad548.chunk.css",
+    "static/js/2.211ce625.chunk.js",
+    "static/css/main.ac562967.chunk.css",
+    "static/js/main.a629a9c0.chunk.js"
+  ]
+}
