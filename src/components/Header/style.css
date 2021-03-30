@@ -2,7 +2,9 @@ header {
 	color: black;
 	width: 100%;
 	height: 600px;
-	background: url(./../../assets/img/header-background.png) white no-repeat right / contain;
+	background: url(./../../assets/img/header-background.png) white no-repeat right;
+	background-position-y: center;
+	transition: all 1s ease-in-out;
 }
 
 header.smaller {
@@ -28,6 +30,7 @@ header p {
 	height: 192px;
 	padding-top: 128px;
 	margin-left: 98px;
+	transition: all 1s ease-in-out
 }
 
 .header__searchbar {

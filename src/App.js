@@ -29,6 +29,18 @@ class App extends React.Component {
 					});
 	};
 
+	resizeHeaderOnScroll = () => {
+	    const distanceY = window.pageYOffset || document.documentElement.scrollTop,
+	      shrinkOn = 10,
+	      headerEl = document.getElementById('header-id');
+
+	    if (distanceY > shrinkOn) {
+	      headerEl.classList.add("smaller");
+	    } else {
+	      headerEl.classList.remove("smaller");
+	    }
+	  }
+
 	filterRecipes = filter => {
 		const filteredRecipes = this.state.allRecipes.recipes.filter(item => {
 			return filter.cuisines[item.cuisine.title] && (item.caloricity >= filter.calories[0] && item.caloricity <= filter.calories[1])
